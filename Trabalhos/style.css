@@ -59,19 +59,19 @@ div > p {
 
 .img {
     width: 150px;
-    transform: translate(0%, -160%);
+    transform: translate(0%, -170%);
     margin-bottom: -70px;
 }
 
 .img2 {
     width: 150px;
-    transform: translate(0%, -335%);
+    transform: translate(0%, -345%);
     margin-bottom: -70px;
 }
 
 .img3 {
     width: 150px;
-    transform: translate(0%, -170%);
+    transform: translate(0%, -180%);
     margin-bottom: -70px;
 }
 
