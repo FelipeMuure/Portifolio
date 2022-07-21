@@ -62,3 +62,19 @@ div > p {
     transform: translate(0%, -160%);
     margin-bottom: -70px;
 }
+
+.img2 {
+    width: 150px;
+    transform: translate(0%, -335%);
+    margin-bottom: -70px;
+}
+
+.img3 {
+    width: 150px;
+    transform: translate(0%, -170%);
+    margin-bottom: -70px;
+}
+
+.birl {
+    margin-bottom: 75px;
+}
