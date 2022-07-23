@@ -55,3 +55,4 @@ function Carregar() {
         res.innerHTML = `Hoje é Domingo. Vai descançar, meu querido!`
     }
 }
+

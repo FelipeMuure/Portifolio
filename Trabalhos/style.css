@@ -16,23 +16,92 @@ header > p {
     margin-bottom: 25px;
 }
 
+nav {
+    position: relative;
+    height: 25px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 8px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4); 
+}
 a.menu {
+    position: relative;
     text-decoration: none;
-    color: black;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 3px;
-    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    line-height: 25px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+nav .animation{
+    position: absolute;
+    height: 4px;
+    top: 0;
+    left: 2%;
+    z-index: 0;
+    background-color: rgb(255, 44, 44);
+    width: 15.1vw;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+a:nth-child(1){
+    width: 15.1vw;
+}
+
+nav .start-home,a:nth-child(1):hover~.animation {
+    width: 15.1vw;
+    left: 2%;
+}
+
+a:nth-child(2){
+    width: 15.1vw;
+}
+
+nav .start-home,a:nth-child(2):hover~.animation {
+    width: 15.1vw;
+    left: 18%;
+}
+
+a:nth-child(3){
+    width: 15.1vw;
+}
+
+nav .start-home,a:nth-child(3):hover~.animation {
+    width: 15.1vw;
+    left: 34.3%;
+}
+
+a:nth-child(4){
+    width: 15.1vw;
+}
+
+nav .start-home,a:nth-child(4):hover~.animation {
+    width: 15.1vw;
+    left: 50.5%;
+}
+
+a:nth-child(5){
+    width: 15.1vw;
+}
+
+nav .start-home,a:nth-child(5):hover~.animation {
+    width: 15.1vw;
+    left: 67%;
+}
+
+a:nth-child(6){
+    width: 15.1vw;
+}
+
+nav .start-home,a:nth-child(6):hover~.animation {
+    width: 15.1vw;
+    left: 83.1%;
 }
 
 nav > ul > li {
-    margin-bottom: 15px;
     display: inline-block;
-}
-
-a.menu:hover {
-    color: white;
-    background-color: black;
-    border: 1px solid rgb(0, 0, 0);
 }
 
 div {
