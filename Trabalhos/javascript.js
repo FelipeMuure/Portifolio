@@ -10,6 +10,7 @@ function Carregar() {
     var quinta = document.getElementById('quinta')
     var sexta = document.getElementById('sexta')
     var sabado = document.getElementById('sabado')
+    var titulo = document.getElementById('titulo')
     /*Mensagem topo do Header*/
     if (hora < 6 || hora > 22) {
         res.innerHTML = 'A acadêmia ainda não abriu, meu querido!'
