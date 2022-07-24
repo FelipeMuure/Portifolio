@@ -3,6 +3,7 @@ function Carregar() {
     var dia = data.getDay()
     var hora = data.getHours()
     var res = document.getElementById('res')
+    var url = window.location.href;
     var segunda = document.getElementById('segunda')
     var terça = document.getElementById('terça')
     var quarta = document.getElementById('quarta')
@@ -19,6 +20,7 @@ function Carregar() {
     } else {
         res.innerHTML = 'Boa Noite!!! Academia lotadinha!!!"'
     }
+    res.innerHTML = url
 
     /*Verifica o dia da semana e o destaca*/
     if (dia == 1) {
@@ -51,6 +53,7 @@ function Carregar() {
         sabado.style.borderRadius = "5px";
         sabado.style.border = "2px solid black";
         sabado.style.backgroundColor = "rgba(255, 51, 51, 0.9)";
+        sabado.style.color = "red";
     } else if (dia == 0) {
         res.innerHTML = `Hoje é Domingo. Vai descançar, meu querido!`
     }
