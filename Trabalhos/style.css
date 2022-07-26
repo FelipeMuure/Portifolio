@@ -166,14 +166,19 @@ aside {
 }
 
 section > ul > li > aside > h2 {
+    font-size: 16pt;
     margin: 0px 0px 0px 0px;
-    padding: 8px;
+    padding: 5px;
 }
 
 section > ul > li > aside > p {
     margin: 0px;
     padding: 10px 5px 50px 5px;
     border-radius: 4%;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .img {
@@ -183,12 +188,29 @@ section > ul > li > aside > p {
     border-radius: 10%;
 }
 
-.img2 {
-    width: 150px;
-    margin-bottom: -70px;
+.Zoom {
+    border-radius: 2%;
+    height: 600px;
+    margin-bottom: 100px;  
+    transition: .6s;      
 }
 
-.img3 {
-    width: 150px;
-    margin-bottom: -70px;
+.imgZoom {
+    width: 350px;
+    border-radius: 2%;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    transition: .6s;   
+}
+
+.asideZoom {
+    height: 265px;
+    margin: -10px 10px 0px 10px;
+    color: white;
+    border-radius: 2%;
+    transition: .6s;   
+}
+
+.pZoom {
+    
 }
