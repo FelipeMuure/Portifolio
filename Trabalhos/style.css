@@ -154,11 +154,13 @@ div > p {
     border: 2px solid black;
     border-radius: 4%;
     margin-bottom: 15px;
+    margin-left: 88px;
 }
 
 .img {
     width: 150px;
-    margin-bottom: -70px;
+    margin-bottom: -161px;
+    margin-left: -350px;
     border-radius: 20%;
 }
 
