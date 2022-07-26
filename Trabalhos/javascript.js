@@ -83,17 +83,21 @@ function Zoom0() {
     var click = document.getElementById('Zoom0')
     var img = document.getElementById('imgZoom0')
     var aside = document.getElementById('asideZoom0')
+    var specs = document.getElementById('specs')
 
     if(click.style.height === "600px") {
         click.style.height = "110px"
         click.setAttribute('class', 'Zoom2')
         img.setAttribute('class', 'imgZoom2')
         aside.setAttribute('class', 'asideZoom2')
+        specs.innerHTML = 'Bike ou Esteira 20 min';
+        
     } else {
         click.style.height = "600px"
         click.setAttribute('class', 'Zoom')
         img.setAttribute('class', 'imgZoom')
         aside.setAttribute('class', 'asideZoom')
+        specs.innerHTML = "<ul>Andar ou correr na Esteira/Bicicleta serve:<br><br></ul><li>Tonifica os músculos</li><li>Ajuda a diminuir a pressão arterial</li><li>Melhora a circulação sanguínea</li><li>Amplia a capacidade pulmonar</li>";
     }
 
 }
