@@ -33,8 +33,9 @@ function Carregar() {
         segunda.style.fontWeight = "bold";
         segunda.style.color = "#A2C640";
     } else if (dia == 2) {
-        fundo.style.backgroundImage = "url('https://media.istockphoto.com/photos/fitness-gym-gym-equipment-background-valentines-day-concept-picture-id1202692363?k=20&m=1202692363&s=170667a&w=0&h=HeKtLq3q16Tk14xYEjW9wwvwKweCx6_egy6uaEkEKuQ=')";
+        fundo.style.backgroundImage = "url('https://st3.depositphotos.com/9527076/13770/i/450/depositphotos_137701460-stock-photo-fitness-workout-background-dumbbells-on.jpg')";
         fundo.style.backgroundSize = "100%";
+        fundo.style.backgroundPositionY = "45%";
         res.innerHTML = 'Terça-Feira.<br> Bem vindo ao nosso app!!! Bom treino!'
         terca.style.fontSize = "15pt";
         terca.style.fontWeight = "bold";
