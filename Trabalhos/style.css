@@ -153,25 +153,33 @@ section {
 section > ul > li {
     border-radius: 5%;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-bottom: 15px;
+    margin-bottom: 6px;
+    height: 110px;
 }
 
-section > ul > li > p {
+aside {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 98px;
+    margin: -12px 5px 0px 110px;
     color: white;
-    padding: 51px 5px 51px 5px;
-    border-radius: 4%;
-    margin: 0px 5px 15px 150px;
-    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
 }
 
-dd {
-    height: 1px;
+section > ul > li > aside > h2 {
+    margin: 0px 0px 0px 0px;
+    padding: 8px;
+}
+
+section > ul > li > aside > p {
+    margin: 0px;
+    padding: 10px 5px 50px 5px;
+    border-radius: 4%;
 }
 
 .img {
-    width: 140px;
-    margin-bottom: -142px;
-    margin-left: -225px;
+    width: 100px;
+    margin-bottom: -91px;
+    margin-left: -265px;
     border-radius: 10%;
 }
 
