@@ -59,3 +59,36 @@ function Carregar() {
     }
 }
 
+function Zoom() {
+    var click = document.getElementById('esteira')
+    var img = document.getElementById('esteiraimg')
+    var aside = document.getElementById('esteiraaside')
+
+    if(click.setAttribute === 'class', 'Zoom2') {
+        click.setAttribute('class', 'Zoom')
+        img.setAttribute('class', 'imgZoom')
+        aside.setAttribute('class', 'asideZoom')
+    } else {
+        click.setAttribute('class', 'Zoom2')
+        img.setAttribute('class', 'imgZoom2')
+        aside.setAttribute('class', 'asideZoom2')
+    }
+
+}
+
+function Zoom2(){
+    var click = document.getElementById('esteira')
+    var img = document.getElementById('esteiraimg')
+    var aside = document.getElementById('esteiraaside')
+
+    if(click.setAttribute === 'class', 'Zoom2') {
+        click.setAttribute('class', 'Zoom2')
+        img.setAttribute('class', 'imgZoom2')
+        aside.setAttribute('class', 'asideZoom2')
+    } else {
+        click.setAttribute('class', 'Zoom2')
+        img.setAttribute('class', 'imgZoom2')
+        aside.setAttribute('class', 'asideZoom2')
+    }
+
+}

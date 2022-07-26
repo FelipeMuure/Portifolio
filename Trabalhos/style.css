@@ -204,13 +204,31 @@ ul {
 }
 
 .asideZoom {
-    height: 265px;
+    height: 215px;
     margin: -10px 10px 0px 10px;
     color: white;
     border-radius: 2%;
     transition: .6s;   
 }
 
-.pZoom {
-    
+.Zoom2 {
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 6px;
+    height: 110px;
+}
+
+.imgZoom2 {
+    width: 100px;
+    margin-bottom: -91px;
+    margin-left: -265px;
+    border-radius: 10%; 
+}
+
+.asideZoom2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 98px;
+    margin: -12px 5px 0px 110px;
+    color: white;
+    border-radius: 5px;
 }
