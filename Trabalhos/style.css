@@ -37,7 +37,7 @@ header > p {
 
 nav {
     position: relative;
-    height: 28px;
+    height: 32px;
     background-color: rgb(73, 73, 73);
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.4); 
 }
@@ -46,7 +46,7 @@ a.menu {
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-radius: 2px;
-    line-height: 25px;
+    line-height: 30px;
     z-index: 1;
     display: inline-block;
     text-align: center;
