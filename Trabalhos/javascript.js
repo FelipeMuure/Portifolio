@@ -33,7 +33,7 @@ function Carregar() {
     } else if (link == "/Trabalhos/Sabado.html") {
         bar.style.left = "83.2%";
     } else {
-
+        int.innerHTML = link
     }
 
     /*Verifica o dia da semana e o destaca*/
