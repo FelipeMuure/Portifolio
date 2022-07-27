@@ -17,23 +17,19 @@ function Carregar() {
     var bar = document.getElementById('bar')
     
     /*Movimentação da barra abaixo do menu*/
-    if (link == "/Trabalhos/Segunda.html") {
-        int.innerHTML = link
+    if (link == "/Portifolio/Trabalhos/Segunda.html") {
         bar.style.left = "1.8%";
-    } else if (link == "/Trabalhos/Terca.html") {
-        int.innerHTML = link
+    } else if (link == "/Portifolio/Trabalhos/Terca.html") {    
         bar.style.left = "18%";
-    } else if (link == "/Trabalhos/Quarta.html") {
-        int.innerHTML = link
+    } else if (link == "/Portifolio/Trabalhos/Quarta.html") {
         bar.style.left = "34.4%";
-    } else if (link == "/Trabalhos/Quinta.html") {
+    } else if (link == "/Portifolio/Trabalhos/Quinta.html") {
         bar.style.left = "50.6%";
-    } else if (link == "/Trabalhos/Sexta.html") {
+    } else if (link == "/Portifolio/Trabalhos/Sexta.html") {
         bar.style.left = "66.9%";
-    } else if (link == "/Trabalhos/Sabado.html") {
+    } else if (link == "/Portifolio/Trabalhos/Sabado.html") {
         bar.style.left = "83.2%";
     } else {
-        int.innerHTML = link
     }
 
     /*Verifica o dia da semana e o destaca*/
