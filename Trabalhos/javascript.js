@@ -18,10 +18,13 @@ function Carregar() {
     
     /*Movimentação da barra abaixo do menu*/
     if (link == "/Trabalhos/Segunda.html") {
+        int.innerHTML = link
         bar.style.left = "1.8%";
     } else if (link == "/Trabalhos/Terca.html") {
+        int.innerHTML = link
         bar.style.left = "18%";
     } else if (link == "/Trabalhos/Quarta.html") {
+        int.innerHTML = link
         bar.style.left = "34.4%";
     } else if (link == "/Trabalhos/Quinta.html") {
         bar.style.left = "50.6%";
