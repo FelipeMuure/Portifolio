@@ -16,7 +16,11 @@ function Carregar() {
     var link = window.location.pathname;
     var bar = document.getElementById('bar')
     
-    /*Movimentação da barra abaixo do menu*/
+    /*
+        Movimentação da barra abaixo do menu
+        Referido ao pathname disponivel.
+    */
+
     if (link == "/Portifolio/Trabalhos/Segunda.html") {
         bar.style.left = "1.8%";
     } else if (link == "/Portifolio/Trabalhos/Terca.html") {    
@@ -32,7 +36,10 @@ function Carregar() {
     } else {
     }
 
-    /*Verifica o dia da semana e o destaca*/
+    /* 
+        Verifica o dia da semana e o destaca de #A2C640(verde)
+    */
+
     if (dia == 1) {
         fundo.style.backgroundImage = "url('https://media.istockphoto.com/photos/fitness-gym-equipment-accessories-on-blue-background-picture-id926065524?k=20&m=926065524&s=170667a&w=0&h=WVFr7qcslrJO7g89sLgCMlqHKfQ5jo0H_TYgKzF9GHQ=')";
         fundo.style.backgroundSize = "100%";
@@ -89,7 +96,10 @@ function Carregar() {
 }
 
 
-/*Click para abrir e ampliar os exercicios do 0 ao 20*/
+/*
+    Click para ampliar e voltar ao normal os exercicios do 0 ao 20.
+*/
+
 function Zoom0() {
     var click = document.getElementById('Zoom0')
     var img = document.getElementById('imgZoom0')
