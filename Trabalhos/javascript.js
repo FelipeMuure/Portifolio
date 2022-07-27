@@ -33,9 +33,6 @@ function Carregar() {
 
     }
 
- 
-    
-
     /*Verifica o dia da semana e o destaca*/
     if (dia == 1) {
         fundo.style.backgroundImage = "url('https://media.istockphoto.com/photos/fitness-gym-equipment-accessories-on-blue-background-picture-id926065524?k=20&m=926065524&s=170667a&w=0&h=WVFr7qcslrJO7g89sLgCMlqHKfQ5jo0H_TYgKzF9GHQ=')";
