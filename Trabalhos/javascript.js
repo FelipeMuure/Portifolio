@@ -95,6 +95,139 @@ function Carregar() {
     }
 }
 
+/* Esconde os exercicios já feitos com click*/
+
+function Hide0() {
+    var click = document.getElementById('Zoom0')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide1() {
+    var click = document.getElementById('Zoom1')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide2() {
+    var click = document.getElementById('Zoom2')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide3() {
+    var click = document.getElementById('Zoom3')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide4() {
+    var click = document.getElementById('Zoom4')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide5() {
+    var click = document.getElementById('Zoom5')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide6() {
+    var click = document.getElementById('Zoom6')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide7() {
+    var click = document.getElementById('Zoom7')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide8() {
+    var click = document.getElementById('Zoom8')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide9() {
+    var click = document.getElementById('Zoom9')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide10() {
+    var click = document.getElementById('Zoom10')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
+
+function Hide11() {
+    var click = document.getElementById('Zoom11')
+    if(click.style.display == "block") {
+        click.style.display = "none";
+        click.style.transition = '1s';
+    } else {
+        click.style.display = "block";
+        click.style.transition = '1s';
+    }
+}
 
 /*
     Click para ampliar e voltar ao normal os exercicios do 0 ao 20.
@@ -122,6 +255,7 @@ function Zoom0() {
     }
 
 }
+
 
 function Zoom1() {
     var click = document.getElementById('Zoom1')
@@ -502,4 +636,5 @@ function Zoom20() {
     }
 
 }
+
 

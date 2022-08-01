@@ -164,6 +164,7 @@ aside {
     margin: -12px 5px 0px 110px;
     color: white;
     border-radius: 5px;
+    z-index: 1;
 }
 
 section > ul > li > aside > h2 {
@@ -235,4 +236,12 @@ ul {
     color: white;
     border-radius: 5px;
     transition: .6s; 
+}
+
+.hide {
+    display: block;
+    margin-top: -12px;
+    margin-left: 240px;
+    margin-bottom: -19px;
+    z-index: 1;
 }
