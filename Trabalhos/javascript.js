@@ -72,8 +72,9 @@ function Carregar() {
         quinta.style.fontWeight = "bold";
         quinta.style.color = "#A2C640";
     } else if (dia == 5) {
-        fundo.style.backgroundImage = "url('https://media.istockphoto.com/photos/set-of-fitness-gym-equipment-workout-on-light-purple-background-with-picture-id926065476?k=20&m=926065476&s=170667a&w=0&h=NrEc78gu_IEB9g1lj37aBXwLuhnUBOySL06_ACvh4cc=')";
+        fundo.style.backgroundImage = "url('https://media.istockphoto.com/photos/gym-dumbbells-with-black-metal-weights-1kg-and-2kg-on-black-with-picture-id1077291686?k=20&m=1077291686&s=170667a&w=0&h=KZkekXYu8NSJO7cDbH21J3P1TlG2xYlyAgTCeBe73ec=')";
         fundo.style.backgroundSize = "100%";
+        fundo.style.backgroundPositionY = "10%";
         res.innerHTML = 'Sextou no treinoooo!!<br>  Isso é o que chamamos de disciplina!!!'
         sexta.style.fontSize = "15pt";
         sexta.style.fontWeight = "bold";
