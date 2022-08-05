@@ -79,6 +79,7 @@ function Carregar() {
         sexta.style.fontSize = "15pt";
         sexta.style.fontWeight = "bold";
         sexta.style.color = "#A2C640";
+
     } else if (dia == 6) {
         fundo.style.backgroundImage = "url('https://media.istockphoto.com/photos/healthy-fitness-lifestyle-gym-background-picture-id906006366?k=20&m=906006366&s=170667a&w=0&h=h745FX1YEyx467jRUeY-pRMVgraIoU5-sDK28MEEcBo=')";
         fundo.style.backgroundSize = "100%";
