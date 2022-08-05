@@ -183,6 +183,13 @@ ul {
     list-style-type: none;
 }
 
+.Zoom0 {
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 6px;
+    height: 130px;
+}
+
 .img {
     width: 100px;
     margin-bottom: -107px;
