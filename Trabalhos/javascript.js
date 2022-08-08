@@ -244,9 +244,9 @@ function Zoom0() {
 
     if(click.style.height === "635px") {
         click.style.height = "130px"
-        click.setAttribute('class', 'Zoom2')
-        img.setAttribute('class', 'imgZoom2')
-        aside.setAttribute('class', 'asideZoom2')
+        click.setAttribute('class')
+        img.setAttribute('class')
+        aside.setAttribute('class')
         hide.style.marginLeft = '-265px';
         esteira.innerHTML = 'Bike ou Esteira 20 min';
         
