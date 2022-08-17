@@ -5,192 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="Trabalhos/cadastro.js"></script>
+    <script src="index.js"></script>
 </head>
-<body onload="Carregar()">
-    <header id="fundo">
-        <h1 id="titulo">TREINO SEMANAL</h1>
-        <p id="res"></p>
-        <nav>       
-                <a id="segunda" class="menu" href="Segunda.html">Seg</a>
-                <a id="terca" class="menu" href="Terca.html">Ter</a>
-                <a id="quarta" class="menu" href="Quarta.html">Qua</a>
-                <a id="quinta" class="menu" href="Quinta.html">Qui</a>
-                <a id="sexta" class="menu" href="Sexta.html">Sex</a>
-                <a id="sabado" class="menu" href="Sabado.html">Sáb</a> 
-                <div id="bar" class="animation start-home"></div>     
-        </nav>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <h2>Bem vindo!</h2>
+            </div>
+            <div class="menu-desktop">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gym - App</a></li>
+                    <li><a href="#">Lading Page</a></li>
+                    <li><a href="#">E-Commerce</a></li>
+                </ul>
+            </div><!--Desktop-->
+            <div class="menu-mobile">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Gym - App</a></li>
+                    <li><a href="#">Lading Page</a></li>
+                    <li><a href="#">E-Commerce</a></li>
+                </ul><!--Mobile-->
+            </div>
+        </div>
     </header>
-
-    <section>
-        <h2>Pernas, Gluteos</h2>
-        <ul>
-            <li id="AgachamentoLivreHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="AgachamentoLivreHide()"
-                    >
-                <article id="AgachamentoLivreZoom" onclick="AgachamentoLivreZoom()">
-                    <img 
-                    id="AgachamentoLivreImg" 
-                    src="https://storage.googleapis.com/jw-image-storage/public/u/x/b/temp-qphrqcwjhhgvsznafddv/Barbell-squat.gif" 
-                    alt="Agachamento Livre" 
-                    srcset="">
-                    <aside id="AgachamentoLivreAside">
-                        <h2>Agachamento Livre</h2>
-                        <p id="AgachamentoLivreConteudo">-:-ERROR 404-:-</p>
-                    </aside>
-                </article>
-            </li>
-            <li id="ElevacaoPelvicaHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="ElevacaoPelvicaHide()"
-                    >
-                <article id="ElevacaoPelvicaZoom" onclick="ElevacaoPelvicaZoom()">
-                    <img 
-                    id="ElevacaoPelvicaImg" 
-                    src="https://static.wixstatic.com/media/2edbed_852ea3938607497aa100eb79e600e11a~mv2.gif" 
-                    alt="Elevação Pélvica" 
-                    srcset="">
-                    <aside id="ElevacaoPelvicaAside">
-                        <h2>Elevação Pélvica</h2>
-                        <p id="ElevacaoPelvicaConteudo">-:-ERROR 404-:-</p>
-                    </aside>
-                </article>
-            </li>
-            <li id="EsteiraHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="EsteiraHide()"
-                    >
-                <article onclick="EsteiraZoom()">
-                    <img 
-                    id="EsteiraImg" 
-                    src="Trabalhos/Imagens/Gifs/Esteira.gif" 
-                    alt="Esteira" 
-                    srcset="">
-                    <aside id="EsteiraAside">
-                        <h2>Esteira</h2>
-                        <p id="EsteiraConteudo">-:-ERROR 404-:-</p>
-                    </aside>
-                </article>
-            </li>
-            <li id="SupinoComHalteresHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="SupinoComHalteresHide()"
-                    >
-                <article id="SupinoComHalteresZoom" onclick="SupinoComHalteresZoom()">
-                    <img 
-                    id="SupinoComHalteresImg" 
-                    src="https://storage.googleapis.com/jw-image-storage/public/u/x/b/temp-qphrqcwjhhgvsznafddv/dumbbellbenchpress-1.gif" 
-                    alt="Supino Com Halteres" 
-                    srcset="">
-                    <aside id="SupinoComHalteresAside">
-                        <h2>Supino Com Halteres</h2>
-                        <p id="SupinoComHalteresConteudo">-:-ERROR 404-:-<p>
-                    </aside>
-                </article>
-            </li>
-            <li id="SupinoComHalteresComPegadaInversaHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="SupinoComHalteresComPegadaInversaHide()"
-                    >
-                <article id="SupinoComHalteresComPegadaInversaZoom" onclick="SupinoComHalteresComPegadaInversaZoom()">
-                    <img 
-                    id="SupinoComHalteresComPegadaInversaImg" 
-                    src="https://storage.googleapis.com/jw-image-storage/public/u/x/b/temp-qphrqcwjhhgvsznafddv/reversegripdumbbellbenchpress.gif" 
-                    alt="Supino Com Halteres Com Pegada Inversa" 
-                    srcset="">
-                    <aside id="SupinoComHalteresComPegadaInversaAside">
-                        <h2>Supino Com Halteres Com Pegada Inversa</h2>
-                        <p id="SupinoComHalteresComPegadaInversaConteudo">-:-ERROR 404-:-</p>
-                    </aside>
-                </article>
-            </li>
-            <li id="SupinoDeclinadoComHalteresHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="SupinoDeclinadoComHalteresHide()"
-                    >
-                <article id="SupinoDeclinadoComHalteresZoom" onclick="SupinoDeclinadoComHalteresZoom()">
-                    <img 
-                    id="SupinoDeclinadoComHalteresImg" 
-                    src="https://storage.googleapis.com/jw-image-storage/public/u/x/b/temp-qphrqcwjhhgvsznafddv/declinedumbbellbenchpress.gif" 
-                    alt="Supino Declinado Com Halteres" 
-                    srcset="">
-                    <aside id="SupinoDeclinadoComHalteresAside">
-                        <h2>Supino Declinado Com Halteres</h2>
-                        <p id="SupinoDeclinadoComHalteresConteudo">-:-ERROR 404-:-</p>
-                    </aside>
-                </article>
-            </li>
-            <li id="SupinoInclinadoComHalteresHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="SupinoInclinadoComHalteresHide()"
-                    >
-                <article id="SupinoInclinadoComHalteresZoom" onclick="SupinoInclinadoComHalteresZoom()">
-                    <img 
-                    id="SupinoInclinadoComHalteresImg" 
-                    src="https://storage.googleapis.com/jw-image-storage/public/u/x/b/temp-qphrqcwjhhgvsznafddv/inclinedumbbellbenchpress.gif" 
-                    alt="Supino Inclinado Com Halteres" 
-                    srcset="">
-                    <aside id="SupinoInclinadoComHalteresAside">
-                        <h2>Supino Inclinado Com Halteres</h2>
-                        <p id="SupinoInclinadoComHalteresConteudo">-:-ERROR 404-:-</p>
-                    </aside>
-                </article>
-            </li>
-            <li id="PulloverHide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="PulloverHide()"
-                    >
-                <article id="PulloverZoom" onclick="PulloverZoom()">
-                    <img 
-                    id="PulloverImg" 
-                    src="https://storage.googleapis.com/jw-image-storage/public/u/x/b/temp-qphrqcwjhhgvsznafddv/dumbbell-pullover.gif" 
-                    alt="Pullover" 
-                    srcset="">
-                    <aside id="PulloverAside">
-                        <h2>Pullover</h2>
-                        <p id="PulloverConteudo">-:-ERROR 404-:-</p>
-                    </aside>
-                </article>
-            </li>
-            <li id="Hide">
-                <input 
-                    type="submit"
-                    value=" "
-                    onclick="Hide()"
-                    id=""
-                    >
-                <article id="Zoom" onclick="Zoom()">
-                    <img 
-                    id="Img" 
-                    src="https://media0.giphy.com/media/IgpAALi5hEv1IFmCrZ/giphy.gif" 
-                    alt="Rick Sanchez" 
-                    srcset="">
-                    <aside id="Aside">
-                        <h2>Rick Sanchez</h2>
-                        <p id="Conteudo">Novas situações podem intimidar. Você olha em volta e é tudo assustador, diferente. Mas sabe?... É enfrentando que crescemos como pessoas.</p>
-                    </aside>
-                </article>
-            </li>
-
-    </section>
+    
+    
 </body>
 </html>
