@@ -86,12 +86,15 @@
     </nav>
   </header>
   <section>
-    <form action="enviar.php" method="POST">
+    <form action="https://api.staticforms.xyz/submit" method="POST">
       <fieldset id="usuario"><legend>Contato</legend>
-        <p><label for="cNome"><input type="text" name="tnome" id="cNome" size="30" maxlength="50" placeholder="Nome Completo:" data-rule="minlen:4" required></label></p>
-        <p><input type="email" name="tMail" id="cMail" size="30" maxlength="40" placeholder="Meu-Email@exemplo.com" data-rule="email" required></p>
-        <p><input type="tel" name="tTel" id="cTel" size="30" maxlength="12" placeholder="Fone: (016) 99545-4545" data-rule="minlen:10" required></p>
-        <p><textarea type="text" name="tDesc" id="cDesc" cols="45" rows="5" placeholder="                   Mensagem" data-rule="minlen:12" required></textarea></p>
+        <input type="hidden" name="accessKey" value="b1e9b247-714f-454f-b9ac-d951eb550a46">
+        <p><label for="cNome"><input type="text" name="name" id="name" size="30" maxlength="50" placeholder="Nome Completo:" data-rule="minlen:4" required></label></p>
+        <p><input type="email" name="email" id="email" size="30" maxlength="40" placeholder="Meu-Email@exemplo.com" data-rule="email" required></p>
+        <p><input type="tel" name="phone" id="phone" size="30" maxlength="12" placeholder="Fone: (016) 99545-4545" data-rule="minlen:10" required></p>
+        <p><textarea type="text" name="message" id="message" cols="45" rows="5" placeholder="                   Mensagem" data-rule="minlen:12" required></textarea></p>
+        <input type="hidden" name="replyTo" value="Felipe_Muure@outlook.com">
+        <input type="hidden" name="redirectTo" value="https://felipemuure.github.io/Portifolio/Trabalhos/Sucesso.html">
         <input type="submit" id="enviar" value="Enviar">
       </fieldset>
     </form>
@@ -99,4 +102,4 @@
   <script src="../index.js"></script>
 </body>
 
-</html>
+</html>  
