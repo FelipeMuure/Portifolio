@@ -209,6 +209,10 @@ main > ul > li > img {
     margin-bottom: 15px;
 }
 
+#imgredonda {
+    border-radius: 50%;
+}
+
 main > h1.tratamentos {
     font-size: 25pt;
 }

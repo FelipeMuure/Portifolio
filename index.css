@@ -3,6 +3,7 @@
   padding: 0px;
 }
 
+
 body {
   background-image: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
   background-size: 300% 400%;
@@ -24,6 +25,7 @@ body {
   }
 
 }
+
 
 #menu a {
   color: black;
