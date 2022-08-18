@@ -9,6 +9,68 @@
   <link rel="stylesheet" href="../index.css">
 </head>
 
+<style>
+  form {
+    color: white;
+    text-align: center;
+  }
+
+  fieldset {
+    height: 89vh;
+    width: 98vw;
+    margin: auto;
+  }
+
+  legend {
+    text-shadow: 1px 1px 1px black;
+    font-size: 22pt;
+    padding: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  #enviar {
+    box-sizing: border-box;
+    border: 1px solid white;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    background-image: linear-gradient(-45deg, #084177, #687466, #cd8d7b, #fbc490);
+    background-size: 300% 400%;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    animation: colors 15s ease infinite;
+  }
+
+  #enviar:hover {
+    outline: 1px solid white;
+    border: 1px solid black;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .3s;
+  }
+
+  @keyframes colors {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+
+}
+
+</style>
+
 <body>
   <header id="header">
     <a id="logo" href="">Muure</a>
@@ -24,9 +86,15 @@
     </nav>
   </header>
   <section>
-    Nome:
-    E-mail:
-    
+    <form action="enviar.php" method="POST">
+      <fieldset id="usuario"><legend>Contato</legend>
+        <p><label for="cNome"><input type="text" name="tnome" id="cNome" size="30" maxlength="50" placeholder="Nome Completo:" data-rule="minlen:4" required></label></p>
+        <p><input type="email" name="tMail" id="cMail" size="30" maxlength="40" placeholder="Meu-Email@exemplo.com" data-rule="email" required></p>
+        <p><input type="tel" name="tTel" id="cTel" size="30" maxlength="12" placeholder="Fone: (016) 99545-4545" data-rule="minlen:10" required></p>
+        <p><textarea type="text" name="tDesc" id="cDesc" cols="45" rows="5" placeholder="                   Mensagem" data-rule="minlen:12" required></textarea></p>
+        <input type="submit" id="enviar" value="Enviar">
+      </fieldset>
+    </form>
   </section>
   <script src="../index.js"></script>
 </body>
