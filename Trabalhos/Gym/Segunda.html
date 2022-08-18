@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terça-Feira</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="javascript.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Segunda-Feira</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../../index.css">
+      </head>
 <body onload="Carregar()">
-    <header id="fundo">
-        <h1 id="titulo">TREINO SEMANAL</h1>
-        <p id="res"></p>
-        <nav>       
+    <header id="header">
+        <a id="logo" href="">Muure</a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../Portifolio.html">Portifólio</a></li>
+            <li><a href="/">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+    <header>
+        <nav id="navgym">       
                 <a id="segunda" class="menu" href="Segunda.html">Seg</a>
                 <a id="terca" class="menu" href="Terca.html">Ter</a>
                 <a id="quarta" class="menu" href="Quarta.html">Qua</a>
@@ -318,5 +328,7 @@
         </ul>   
     </section>
     
+    <script src="../../index.js"></script>
+    <script src="javascript.js"></script>
 </body>
 </html>

@@ -1,0 +1,62 @@
+body {
+    background-image: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+    background-size: 300% 400%;
+    background-attachment: fixed;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+
+}
+
+.Port {
+    text-align: center;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 300px;
+    height: 225px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Port > li {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 20px;
+    transition: .5s ease-out;
+}
+
+.Port > li:hover {
+    transform: scale(1.2);
+    transition: .5s ease-out;
+}
+
+.Port li span:hover {
+    opacity: 1;
+}
+
+.Port h2 {
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 90px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
+    font-family: cursive;
+    margin-bottom: 6px;
+}
