@@ -24,11 +24,6 @@ body {
     text-align: center;
 }
 
-img {
-    border-radius: 15px;
-    max-width: 300px;
-    height: 225px;
-}
 
 ul {
     list-style-type: none;
@@ -37,7 +32,7 @@ ul {
 .Port > li {
     border: 1px solid black;
     border-radius: 5px;
-    margin: 30px 15px 0px 0px;
+    margin: 30px 7px 0px 7px;
     display: inline-block;
     padding: 125px 0px;
     transition: all .5s ease-in;
@@ -89,4 +84,64 @@ ul {
     background-position: 50% 50%;
     background-size: 400px 280px;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .Port > li {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 30px 4px 0px 4px;
+        display: inline-block;
+        padding: 100px 0px;
+        transition: all .5s ease-in;
+        width: 350px;
+    }
+    
+    .Port > li:hover {
+        transform: scale(1.2);
+        transition: .4s ease-out;
+    }
+    
+    .Port a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+        border: 1px solid transparent;
+        font-size: 20pt;
+        padding: 100px;
+    }
+    
+    .Port a:hover{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    
+    #foto01 {
+        background-image: url(img/Odonto.png);
+        background-position: 50% 50%;
+        background-size: 500px 400px;
+    }
+    
+    #foto01:hover {
+        background-image: url(img/Odonto.png);
+        background-position: 50% 50%;
+        background-size: 400px 280px;
+        background-repeat: no-repeat;
+    }
+    
+    
+    #foto02 {
+        background-image: url(img/Academia.png);
+        background-position: 50% 50%;
+        background-size: 500px 400px;
+    }
+    
+    #foto02:hover {
+        background-image: url(img/Academia.png);
+        background-position: 50% 50%;
+        background-size: 400px 280px;
+        background-repeat: no-repeat;
+    }
 }

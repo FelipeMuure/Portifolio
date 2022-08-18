@@ -15,6 +15,10 @@
     --font3: ;
 }
 
+body {
+    background-image: none;
+}
+
 header {
     background-image: url("https://cdn.mensagenscomamor.com/content/images/p000028312.jpg?v=1&w=2508&h=1410&c=1");
     height: 100vh;
@@ -27,7 +31,7 @@ header {
 menu {
     position: absolute;
     top: 10%;
-    left: 15%;
+    left: 10%;
 }
 header > menu > nav > ul {
     display: flex;
@@ -40,7 +44,7 @@ header > menu > nav > ul {
     font-weight: bold;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
     text-decoration: none;
-    font-size: 16pt;
+    font-size: 12pt;
     color: white;
 }
 
@@ -97,7 +101,7 @@ header > section > aside > strong > h2 {
 header > section >aside > strong > p {
     font-size: 15pt;
     position: absolute;
-    top: 50%;
+    top: 51%;
     left: 8%;
     max-width: 400px;
 }
@@ -117,9 +121,14 @@ header > section > div {
 }
 
 @media (max-width: 900px) {
+    body {
+        background-image: none;
+    }
+
     div#agendamento {
         top: 40%;
         left: 0%;
+        width: 380px;
     }
 
     header > section > aside > strong > h2 {
@@ -127,7 +136,7 @@ header > section > div {
     }
 
     header > section >aside > strong > p {
-        top: 30%;
+        top: 32%;
     }
 }
 button {
@@ -331,14 +340,14 @@ iframe {
         display: block;
     }
     #lateral {
-        width: 90vw;
+        width: 85vw;
         border-radius: 10px;
     }
 
     iframe{
         margin-left: 5px;
         border-radius: 10px;
-        width: 95vw;
+        width: 85vw;
         margin-bottom: 25px;
     }
     
