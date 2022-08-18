@@ -11,6 +11,9 @@
     text-align: center;
 }
 
+body {
+    background-image: none;
+}
 
 header > p {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
