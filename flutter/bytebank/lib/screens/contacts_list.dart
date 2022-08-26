@@ -2,6 +2,7 @@ import 'package:bytebank/Models/contact.dart';
 import 'package:bytebank/database/app_database.dart';
 import 'package:bytebank/screens/contact_form.dart';
 import 'package:flutter/material.dart';
+import 'package:path/path.dart';
 
 class ContactsList extends StatelessWidget {
 
@@ -12,7 +13,8 @@ class ContactsList extends StatelessWidget {
         title: Text('Contacts'),
       ),
       body: FutureBuilder<List<Contact>>(
-          future: findAll(),
+        initialData: [],
+          future: Future.delayed(Duration(seconds: 2)).then((value) => findAll()),
           builder: ((context, snapshot) {
             if (snapshot.hasData) {
                 final List<Contact> contacts = snapshot.data!;
@@ -24,7 +26,16 @@ class ContactsList extends StatelessWidget {
                 itemCount: contacts.length,
                 );
                 }
-                return Text('Não encontrou nenhum contato');
+                return Center(
+                  child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget> [
+                    CircularProgressIndicator(),
+                      Text("Loading"),
+                      ],
+                  ),
+                );
               }
           ),
 ),
